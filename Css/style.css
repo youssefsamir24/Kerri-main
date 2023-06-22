@@ -49,7 +49,6 @@ body{
     height: auto;
     background-color: black;
     position: absolute;
-    transition: 2s display;
 }
 .navbar .nb .ss li a{
     color: aquamarine;
