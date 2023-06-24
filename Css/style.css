@@ -129,8 +129,8 @@ body{
     font-size: 50px;
     font-weight: bold;
     content:" |";
-    animation: job 4s infinite 0s;
-    -webkit-animation: job 4s infinite 0s;
+    animation: job 6s alternate 0s infinite;
+    /* -webkit-animation: job 4s infinite 0s; */
 }
 @keyframes job {
     0%{
@@ -296,7 +296,7 @@ body{
     border-radius: 30px;
 
 
-   
+
 }
 #our-work .workHead .nav .nav-item .nav-link{
     border: none;
@@ -427,3 +427,9 @@ opacity: 1;
     text-transform: uppercase;
     border: none;
 }
+
+
+#client{
+    background-color: #eee;
+}
+
